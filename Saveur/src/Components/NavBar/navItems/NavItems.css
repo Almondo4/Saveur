@@ -1,0 +1,113 @@
+.Saveur {
+
+    width: 100%;
+    max-width: 100%;
+    height: 110%;
+    max-height: 100%;
+    overflow:hidden;
+}
+
+.Navlist{
+    list-style:none;
+    display: block;
+    align-items: center;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    /*padding: 2px 3px;*/
+}
+.Navlist div{
+
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 5px 0;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /*padding: 4px;*/
+    border-bottom: 2px solid  transparent;
+
+
+}
+
+
+.Navlist div a{
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+    padding: 15px 1px;/*thefix is this*/
+    color: #cda561;
+    text-decoration: none;
+    display: block;
+
+
+
+}
+.Navlist div a:hover,
+.Navlist div a:active,
+.Navlist div a.active{
+    color: #94979c;
+    /*border-bottom: 2px solid #cda561;*/
+
+
+}
+@media (min-width:992px) {
+    .Navlist{
+        height: 56px;
+        display: flex;
+
+    }
+    .Navlist div{
+        /*tocenter link vertically*/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        /*...*/
+
+        height: 100%;
+        /*padding: 4px 10px;*/
+        /*padding: 18px 10px;!*thefix is this*!*/
+        border-bottom: 2px solid  transparent;
+
+
+    }
+
+
+    .Navlist div a{
+
+        box-sizing: border-box;
+
+        padding: 19px 0px;/*thefix is this*/
+        color: aliceblue;
+        text-decoration: none;
+        overflow: visible;
+
+
+
+    }
+    .Navlist div a:hover,
+    .Navlist div a:active,
+    .Navlist div a.active{
+        color: #94979c;
+        border-bottom: 2px solid #cda561;
+
+
+    }
+    .Navlist div a.Saveur:hover,
+    .Navlist div a.Saveur:active,
+    .Navlist div a.active{
+        border: 0 transparent;
+
+    }
+
+}
+@media(max-width:992px){
+    .DesktopOnly{
+        display:none;
+        position: absolute;
+        top: 0;
+    }
+}

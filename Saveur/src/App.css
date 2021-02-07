@@ -1,0 +1,249 @@
+/*html{*/
+    /*height: 100%;*/
+    /*margin: 0;*/
+/*}*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /*fixed the double scrollBar*/
+    overflow-y: hidden;
+}
+
+.home{
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+    background: url("./Components/assets/images/Stocks/floral4.jpg");
+    z-index: -100;
+    height: 110%;
+
+    background-size: 100%;
+    object-fit: fill;
+        background-size: cover;
+
+}
+.FooterAlike{
+    color: #acb8c4;
+    background: #1e1f24;
+    padding: 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.sec1{
+
+    z-index: 1;
+    display: block;
+    clear: both;
+    background: url(./Components/assets/images/Stocks/floral2.jpg);
+    height: 550px;
+}
+.sec1 h1{
+    position:absolute;
+    bottom: 40%;
+    right: 50%;
+    font-size:7em;
+    fontStyle: 'italic';
+    fontFamily:'Cinzel Decorative,cursive';
+    text-align:center;
+    color: #c7b06f;
+    z-index: 1;
+
+
+
+
+
+}
+.sec1 p{
+    position:absolute;
+    bottom: 43%;
+    right: 40%;
+    font-size:2em;
+    font-family: Assassin;
+    text-align:center;
+    color: #c8d4ff;
+    z-index: 1;
+
+
+
+}
+.secA{
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    /*object-fit: cover;*/
+}
+
+.secAH{
+    font-size:7em;
+    font-family: "Herr Von Muellerhoff";
+    text-align:center;
+    color: #c7b06f;
+    position: relative;
+    margin: auto;
+
+    top: 30%;
+}
+.secAP{
+    font-size:2em;
+    font-family: Assassin;
+    text-align:center;
+    color: #c8d4ff;
+
+    position: relative;
+    left: 5%;
+    top: 25%;
+}
+.sec2{
+    height:350px;
+
+    margin-bottom: 300px;
+    clear: both;
+}
+.sec2 h1{
+    z-index: 0;
+    display: block;
+    top: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.sec2 p{
+    top:30px;
+    z-index: 3;
+    display: block;
+    color: #1e1f24;
+}
+.sec3{
+    height:350px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    clear: both;
+}
+.sec3 h1{
+    z-index: 0;
+    display: block;
+    top: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.sec3 p{
+    top:30px;
+    z-index: 3;
+    display: block;
+    color: #1e1f24;
+}
+.secImgContainer{
+    /*min-height: 100%;*/
+    /*min-width: 100%;*/
+
+}
+.secImgContainer img{
+    width: 100%;
+    height: 100%;
+    border:5px rgba(0,0,0,.1);
+
+}
+
+secA video{
+
+    z-index: -200;
+    object-fit: contain;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    width: fit-content;
+    }
+
+#OpPaper{
+   background-color: rgba(162, 157, 152, 0.13);
+
+}
+
+.best3{
+margin:0;
+}
+
+.excpetions{
+
+}
+
+.Dots{
+    width: 100%;
+    background:url("./Components/assets/images/dotgrey.svg.png") repeat-x ;
+}
+
+.menuCover{
+    background: url(./Components/assets/images/Stocks/floral4.jpg);
+    object-fit: fill;
+    background-size: cover;
+}
+.cardBG2{
+    background: url(./Components/assets/images/Stocks/cardBG2.jpg);
+    object-fit: fill;
+    background-size: cover;
+}
+.cardBG{
+    background: url(./Components/assets/images/Stocks/cardbg1.png);
+    object-fit: fill;
+    background-size: cover;
+}
+.cardBG3{
+    background: url(./Components/assets/images/Stocks/cardBoard.jpg);
+    object-fit: fill;
+    background-size: cover;
+}
+.cardBG4{
+    background: url(./Components/assets/images/Stocks/cardbg4.png);
+    object-fit: fill;
+    background-size: cover;
+}
+.map{
+    background: url(./Components/assets/images/Stocks/map.jpg) no-repeat;
+   border-radius: 15px;
+    background-size: contain;
+}
+
+
+.Footer{
+    text-align:center;
+    color: #acb8c4;
+    font-size: 14px;
+    margin: 2px 0;
+    background: #0c0c18;
+    padding: 50px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height:250px ;
+}
+
+
+.social{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.social li{
+    align-content: center;
+    margin: 10px;
+    padding:0 5px;
+}
+.social li a{
+
+    text-decoration: none;
+}
+
+
+@media (max-aspect-ratio: 16/9) {
+    video {
+        width: 200%;
+        margin-left: -50%;
+        z-index: 0;
+    }
+}

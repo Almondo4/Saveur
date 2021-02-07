@@ -1,0 +1,75 @@
+/*.nav {*/
+    /*height:50px;*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*z-index: 90;*/
+    /*background-color: #525252;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*padding: 0 50px;*/
+    /*box-sizing: border-box;*/
+
+/*}*/
+.nav {
+    height:56px;
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+    background-color: #1e1f24;
+    padding :10px  ;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.nav nav {
+    /*height:50%;*/
+    display: none;
+    box-sizing: border-box;
+
+}
+
+.Tg {
+    display: block;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .SD {
+        display: none;
+    }
+    .Tg{
+        height: 5px;
+        display: none;
+    }
+    .nav {
+
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 90;
+    background-color: #0c0c18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+    }
+    .nav nav {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    /*style={{position:'fixed',top: '80px', right: '80px',textAlign:'left'}}*/
+    .ModMenu{
+        position:fixed;
+        top: 80px;
+        right: 80px;
+        textAlign:left
+    }
+    /*backgroundColor:"rgba(255, 255, 255, 0.6)"*/
+}

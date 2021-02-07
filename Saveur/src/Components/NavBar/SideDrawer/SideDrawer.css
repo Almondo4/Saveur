@@ -1,0 +1,42 @@
+.SD{
+    position:fixed;
+    width:280px;
+    max-width: 70%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index:200;
+    background-color: #1e1f24;
+    padding:32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+
+
+}
+.SD div{
+
+    display: block;
+
+}
+.BgLogo{
+    top: 20px;
+    /*bottom: 20px;*/
+    /*background-position:50% 50%;*/
+    background:url("../../../Components/assets/images/SaveurLogo.svg") no-repeat  center ;
+    background-size: 140%;
+
+}
+@media(min-width:992px){
+    .SD{
+        display: none;
+    }
+
+    
+}
+.open{
+    transform: translateX(0);
+
+}
+.close{
+    transform: translateX(-100%);
+}
